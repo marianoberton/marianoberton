@@ -9,6 +9,8 @@ B.Sc. in Data Science, Universidad Siglo 21 (expected May 2027). Based in Ann Ar
 ## What I'm working on
 
 - **Raudo** — multi-tenant, WhatsApp-native AI agent platform for car dealerships, integrated with MercadoLibre. Supervision console built around WhatsApp's 24-hour messaging window and human takeover. Next.js · Supabase · Claude API. *Pre-launch.*
+- **[guarded-agent](https://github.com/marianoberton/guarded-agent)** — open-source TypeScript runtime for agents inside a real operation: deterministic gates in code, bounded decisions on Jev, the LLM only writes. Vetoable tool calls, human takeover, WhatsApp 24-hour window.
+- **[agent-evals](https://github.com/marianoberton/agent-evals)** — open-source eval harness that produces a number you can gate a deploy on: rule-based scorers, a calibrated judge, cassettes that replay latency and cost.
 - **INTED platform** — delivery boards, CRM pipelines and public-tender tracking, in daily use. Shipping weekly against a live feedback backlog.
 - **FOMO** — agents and automations for sales conversations and back-office work, inside the tools the client already uses (WhatsApp, CRM, ERP).
 
@@ -22,6 +24,6 @@ B.Sc. in Data Science, Universidad Siglo 21 (expected May 2027). Based in Ann Ar
 
 TypeScript · Python · Next.js · PostgreSQL / Supabase · Claude API & Agent SDK · MCP · Mastra · n8n · REST APIs & webhooks · WhatsApp Business API · Docker · CI/CD · Linux / VPS
 
-Most of my client work lives in private repos — happy to walk through any of it on a call.
+Most of my client work lives in private repos — happy to walk through any of it on a call. The patterns are public: [guarded-agent](https://github.com/marianoberton/guarded-agent) (the runtime) and [agent-evals](https://github.com/marianoberton/agent-evals) (the tests). Both grew out of Raudo.
 
 📍 Ann Arbor, MI · [LinkedIn](https://www.linkedin.com/in/mariano-berton/) · mariano@fomo.com.ar
